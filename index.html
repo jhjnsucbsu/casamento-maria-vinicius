@@ -1,87 +1,133 @@
 <!DOCTYPE html>
-M ✦ V ☰
-Início Nossa história O grande dia Traje Galeria Confirmação
-❧
-COM A BÊNÇÃO DE DEUS E O CARINHO DE QUEM AMAMOS
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f5ed" />
+  <meta name="description" content="Convite de casamento de Maria Eduarda e Vinícius — 10 de janeiro de 2027." />
+  <title>Maria Eduarda & Vinícius | Nosso casamento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Voltar ao início">M <span>✦</span> V</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">☰</button>
+    <nav id="menu-principal" aria-label="Menu principal">
+      <a href="#inicio">Início</a>
+      <a href="#historia">Nossa história</a>
+      <a href="#dia">O grande dia</a>
+      <a href="#traje">Traje</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#presenca">Confirmação</a>
+    </nav>
+  </header>
 
-Vamos nos casar
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-ornament" aria-hidden="true">❧</div>
+      <p class="eyebrow">COM A BÊNÇÃO DE DEUS E O CARINHO DE QUEM AMAMOS</p>
+      <p class="hero-kicker">Vamos nos casar</p>
+      <h1>Maria Eduarda <em>&</em> Vinícius</h1>
+      <div class="decorative-line" aria-hidden="true"><span>✧</span></div>
+      <p class="hero-date">10 de janeiro de 2027</p>
+      <p class="hero-location">Rio de Janeiro · Brasil</p>
+      <a class="button button-dark" href="#dia">Descubra nosso grande dia <span aria-hidden="true">↗</span></a>
+      <p class="scroll-hint">DESLIZE PARA DESCOBRIR <span aria-hidden="true">↓</span></p>
+    </section>
 
-Maria Eduarda & Vinícius
-✧
-10 de janeiro de 2027
+    <section class="countdown-section section-pad" aria-labelledby="countdown-title">
+      <p class="eyebrow">CADA VEZ MAIS PERTO</p>
+      <h2 id="countdown-title">Falta pouco para o nosso <em>sim</em></h2>
+      <div class="countdown" aria-live="off">
+        <div><strong id="dias">--</strong><span>dias</span></div>
+        <div><strong id="horas">--</strong><span>horas</span></div>
+        <div><strong id="minutos">--</strong><span>minutos</span></div>
+        <div><strong id="segundos">--</strong><span>segundos</span></div>
+      </div>
+      <p id="mensagem-contagem" class="small-note">Esperamos você para celebrar conosco!</p>
+    </section>
 
-Rio de Janeiro · Brasil
+    <section id="historia" class="story section-pad">
+      <div class="story-frame">
+        <div class="photo-placeholder" data-photo="historia"><span>Uma foto especial de vocês ♡</span></div>
+      </div>
+      <div class="story-content">
+        <p class="eyebrow">UM AMOR PARA A VIDA TODA</p>
+        <h2>Nossa <em>história</em></h2>
+        <p>Existem encontros que transformam tudo. Entre sorrisos, sonhos e muitos momentos especiais, descobrimos que a vida é ainda mais bonita quando vivida a dois.</p>
+        <p>Agora começa um novo capítulo. E nada nos deixaria mais felizes do que compartilhar esse dia com pessoas tão importantes para nós.</p>
+        <span class="signature">Com amor, Maria & Vinícius</span>
+      </div>
+    </section>
 
-Descubra nosso grande dia ↗
-DESLIZE PARA DESCOBRIR ↓
+    <section id="dia" class="event section-pad">
+      <p class="eyebrow">RESERVE ESSA DATA</p>
+      <h2>O nosso <em>grande dia</em></h2>
+      <div class="event-date"><span>DOMINGO</span><strong>10</strong><span>JANEIRO · 2027</span></div>
+      <div class="event-card">
+        <span class="small-symbol" aria-hidden="true">✧</span>
+        <h3>Cerimônia & celebração</h3>
+        <p><strong>Horário:</strong> a confirmar</p>
+        <p><strong>Local:</strong> a confirmar</p>
+        <p class="small-note">Em breve, compartilharemos o endereço e os detalhes.</p>
+        <a class="button button-outline" id="mapa-link" href="#dia" aria-disabled="true">Localização em breve</a>
+      </div>
+    </section>
 
-CADA VEZ MAIS PERTO
+    <section id="traje" class="dress section-pad">
+      <p class="eyebrow">PARA CELEBRARMOS JUNTOS</p>
+      <h2>Dress <em>code</em></h2>
+      <p class="section-intro">Queremos que você se sinta lindo(a) e confortável neste dia tão especial.</p>
+      <div class="dress-box">
+        <span class="small-symbol" aria-hidden="true">❀</span>
+        <h3>Traje a confirmar</h3>
+        <p>Em breve, traremos a sugestão de traje e as orientações para nossos convidados.</p>
+        <div class="swatches" aria-label="Paleta visual do convite: verde, bege, dourado e creme">
+          <span style="--swatch:#607b61" title="Verde"></span>
+          <span style="--swatch:#b3c0a6" title="Verde suave"></span>
+          <span style="--swatch:#c8b27b" title="Dourado"></span>
+          <span style="--swatch:#e8deca" title="Bege"></span>
+        </div>
+        <p class="small-note">As cores acima são a paleta do site, não uma exigência para os convidados.</p>
+      </div>
+    </section>
 
-Falta pouco para o nosso sim
---dias
---horas
---minutos
---segundos
-Esperamos você para celebrar conosco!
+    <section id="galeria" class="gallery section-pad">
+      <p class="eyebrow">PEQUENOS INSTANTES, GRANDES MEMÓRIAS</p>
+      <h2>Nossas <em>memórias</em></h2>
+      <p class="section-intro">Alguns momentos da nossa história merecem ficar guardados para sempre.</p>
+      <div class="gallery-grid">
+        <div class="photo-placeholder" data-photo="foto1"><span>Foto 1 ♡</span></div>
+        <div class="photo-placeholder" data-photo="foto2"><span>Foto 2 ♡</span></div>
+        <div class="photo-placeholder" data-photo="foto3"><span>Foto 3 ♡</span></div>
+      </div>
+    </section>
 
-Uma foto especial de vocês ♡
-UM AMOR PARA A VIDA TODA
+    <section id="presenca" class="rsvp section-pad">
+      <p class="eyebrow">SUA PRESENÇA É UM PRESENTE</p>
+      <h2>Confirme sua <em>presença</em></h2>
+      <p class="section-intro">Estamos preparando tudo com muito carinho! Para nos ajudar na organização, confirme sua presença pelo WhatsApp.</p>
+      <a class="button button-dark" id="confirmacao-link" href="#presenca" aria-disabled="true">Confirmação disponível em breve</a>
+      <div class="gift-area">
+        <span class="small-symbol" aria-hidden="true">✦</span>
+        <h3>Lista de presentes</h3>
+        <p>Sua companhia é o nosso maior presente. Para quem desejar nos presentear, em breve compartilharemos nossa lista.</p>
+        <a class="text-link" id="presentes-link" href="#presenca" aria-disabled="true">Lista disponível em breve</a>
+      </div>
+    </section>
 
-Nossa história
-Existem encontros que transformam tudo. Entre sorrisos, sonhos e muitos momentos especiais, descobrimos que a vida é ainda mais bonita quando vivida a dois.
-
-Agora começa um novo capítulo. E nada nos deixaria mais felizes do que compartilhar esse dia com pessoas tão importantes para nós.
-
-Com amor, Maria & Vinícius
-RESERVE ESSA DATA
-
-O nosso grande dia
-DOMINGO10JANEIRO · 2027
-✧
-Cerimônia & celebração
-Horário: a confirmar
-
-Local: a confirmar
-
-Em breve, compartilharemos o endereço e os detalhes.
-
-Localização em breve
-PARA CELEBRARMOS JUNTOS
-
-Dress code
-Queremos que você se sinta lindo(a) e confortável neste dia tão especial.
-
-❀
-Traje a confirmar
-Em breve, traremos a sugestão de traje e as orientações para nossos convidados.
-
-As cores acima são a paleta do site, não uma exigência para os convidados.
-
-PEQUENOS INSTANTES, GRANDES MEMÓRIAS
-
-Nossas memórias
-Alguns momentos da nossa história merecem ficar guardados para sempre.
-
-Foto 1 ♡
-Foto 2 ♡
-Foto 3 ♡
-SUA PRESENÇA É UM PRESENTE
-
-Confirme sua presença
-Estamos preparando tudo com muito carinho! Para nos ajudar na organização, confirme sua presença pelo WhatsApp.
-
-Confirmação disponível em breve
-✦
-Lista de presentes
-Sua companhia é o nosso maior presente. Para quem desejar nos presentear, em breve compartilharemos nossa lista.
-
-Lista disponível em breve
-MAL PODEMOS ESPERAR
-
-Esperamos você!
-Que seja um dia repleto de amor, alegria e lembranças inesquecíveis.
-
-M & V
-10 · 01 · 2027
-
-Feito com amor para celebrar Maria Eduarda & Vinícius ♡
+    <section class="farewell section-pad">
+      <p class="eyebrow">MAL PODEMOS ESPERAR</p>
+      <h2>Esperamos <em>você!</em></h2>
+      <p>Que seja um dia repleto de amor, alegria e lembranças inesquecíveis.</p>
+      <div class="farewell-monogram">M <span>&</span> V</div>
+      <p class="hero-date">10 · 01 · 2027</p>
+    </section>
+  </main>
+  <footer>Feito com amor para celebrar Maria Eduarda & Vinícius ♡</footer>
+</body>
+</html>
