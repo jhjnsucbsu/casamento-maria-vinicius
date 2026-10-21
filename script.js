@@ -1,4 +1,3 @@
-
 /* CONFIGURAÇÕES: altere os valores abaixo quando tiver os detalhes. */
 const CONFIG = {
   // Horário provisório de 15h, usado SOMENTE para a contagem regressiva.
